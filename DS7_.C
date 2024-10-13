@@ -1,59 +1,61 @@
 #include <stdio.h>
-#include <conio.h>
 #include <math.h>
 #include <ctype.h>
 struct stack
 {
-        int top;
-        int operand[20];
+    int top;
+    int operand[20];
 };
-void push(struct stack*,int);
-void pop(struct stack*);
-void main()
+void push(struct stack *, int);
+void pop(struct stack *);
+int main()
 {
     struct stack s;
     char str1[40];
-    int i=0, result, op1,op2;
+    int i = 0, result, op1, op2;
     s.top;
-    clrscr();
     printf("Enter an expression in postfix form\n");
-    while((str1[i]=getchar())!='\n')
+    while ((str1[i] = getchar()) != '\n')
     {
-        if(isdigit(str1[i]))
+        if (isdigit(str1[i]))
         {
-                push(&s,str1[i]-'o');
+            push(&s, str1[i] - '0');
         }
         else
         {
-            op2=s.operand[s.top];
+            op2 = s.operand[s.top];
             pop(&s);
-            op1=s.operand[s.top];
+            op1 = s.operand[s.top];
             pop(&s);
             switch (str1[i])
             {
-                case '+':result=op2+op2;
-                    break;
-                case '-':result=op1-op2;
-                    break;
-                case '*':result=op1*op2;
-                    break;
-                case '/':result=op1/op2;
-                    break;
+            case '+':
+                result = op1 + op2;
+                break;
+            case '-':
+                result = op1 - op2;
+                break;
+            case '*':
+                result = op1 * op2;
+                break;
+            case '/':
+                result = op1 / op2;
+                break;
             }
-            printf("\nIntermediate result=%d",result);
-            getch();
+            printf("\nIntermediate result=%d", result);
+            return 0;
         }
         i++;
     }
-    printf("\nThe value of expression=%d",result);
-    getch();
+    printf("\nThe value of expression=%d", result);
+    return 0;
 }
-void push(struct stack *ps,int n)
+void push(struct stack *ps, int n)
 {
     ps->top++;
-    ps->operand[ps->top]=n;
+    ps->operand[ps->top] = n;
 }
-void pop(struct stack* ps)
+void pop(struct stack *ps)
 {
     ps->top--;
 }
