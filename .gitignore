@@ -1,6 +1,5 @@
-.json
-.bak
-.exe
-.dll
-.vscode
-.env
+*.json
+*.bak
+*.exe
+*.dll
+.vscode/
