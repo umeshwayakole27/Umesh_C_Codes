@@ -1,4 +1,6 @@
-json
-bak
-exe
-dll
+.json
+.bak
+.exe
+.dll
+.vscode
+.env
