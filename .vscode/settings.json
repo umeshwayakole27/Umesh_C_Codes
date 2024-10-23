@@ -1,6 +1,13 @@
 {
     "files.associations": {
         "DS1_.C": "cpp",
-        "DS7_.C": "cpp"
+        "DS7_.C": "cpp",
+        "PRACT6.C": "cpp",
+        "PRACT7.C": "cpp",
+        "PRACT5.C": "cpp",
+        "PRACT4.C": "cpp",
+        "PRACT8.C": "cpp",
+        "PRACT9.C": "cpp",
+        "PRACT10.C": "cpp"
     }
 }
