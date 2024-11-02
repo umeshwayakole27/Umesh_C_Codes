@@ -37,7 +37,7 @@ int main()
 	    printf("%d ", arr[i][j]);
 	}
 	printf("\n");
-    }asg
+    }
     printf("Sum of all the elements of 3 x 3 array is: %d\n", sum(arr));
     getch();
     return 0;
