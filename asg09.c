@@ -1,4 +1,6 @@
-/*Write a program to display the sum of the series  1+ 1/2+1/3+......+1/n*/
+/*
+Question: 09
+Write a program to display the sum of the series  1+ 1/2+1/3+......+1/n*/
 
 #include <stdio.h>
 int main()

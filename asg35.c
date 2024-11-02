@@ -1,4 +1,6 @@
-/*Write a program to check whether the given string is palindrome using function.*/
+/*
+Question: 35
+Write a program to check whether the given string is palindrome using function.*/
 #include <stdio.h>
 #include <string.h>
 int isPalindrome(char str[])

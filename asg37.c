@@ -1,4 +1,6 @@
-/* Write a program to display odd and even numbers separately, stored in an array using
+/*
+Question: 37 
+Write a program to display odd and even numbers separately, stored in an array using
 function.*/
 #include <stdio.h>
 #include <stdlib.h>

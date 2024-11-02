@@ -1,4 +1,6 @@
-/*Write a C program to find the HCF (Highest Common Factor) of two numbers.*/
+/*
+Question: 15
+Write a C program to find the HCF (Highest Common Factor) of two numbers.*/
 #include <stdio.h>
 
 int main() {

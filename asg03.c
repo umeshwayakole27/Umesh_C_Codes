@@ -1,6 +1,6 @@
-/*Write a c program to check whether a number is strong or not. (The number is strong if
-sum of the factorials of digits of a number is equal to the original number. Ex: n=145=>
-1! + 4! + 5! = 1 + 24 + 120 = 145)*/
+/*
+Question: 03
+Write a c program to check whether a number is strong or not.*/
 #include <stdio.h>
 int main()
 {

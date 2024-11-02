@@ -1,4 +1,7 @@
-/*Write a program to find the sum of the right diagonals of a matrix*/
+/* Question: 40
+Write a program to find the sum of the right diagonals of a matrix
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 int main()

@@ -1,10 +1,7 @@
-/*Write a C program to print all Perfect numbers between 1 to n.
-(Perfect number is a positive integer which is equal to the sum of its proper positive
-divisors.
-For example: 6 is the first perfect number
-Proper divisors of 6 are 1, 2, 3
-Sum of its proper divisors = 1 + 2 + 3 = 6.
-Hence 6 is a perfect number.*/
+/*
+Question: 25
+Write a C program to print all Perfect numbers between 1 to n.
+*/
 
 #include <stdio.h>
 int main()

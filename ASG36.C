@@ -1,4 +1,6 @@
-/*Write a program to generate a two dimensional array of size 3 x 3 and find sum of all the
+/*
+Question: 36
+Write a program to generate a two dimensional array of size 3 x 3 and find sum of all the
 array elements using function.*/
 #include <stdio.h>
 #include <stdlib.h>

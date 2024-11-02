@@ -1,4 +1,6 @@
-/*Write a program using loops and switch statement to print word equivalent of a number
+/*
+Question: 17
+Write a program using loops and switch statement to print word equivalent of a number
 of 3 digits (i.e. 365 – three six five)*/
 #include <stdio.h>
 int main()
