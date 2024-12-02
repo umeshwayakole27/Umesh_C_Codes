@@ -9,7 +9,7 @@ Name - Umesh Madhukar Wayakole
 int main() {
     int choice, number;
     float guess, result;
-    clrscr();
+    // clrscr();
     printf("Enter a number: ");
     scanf("%d", &number);
 
@@ -47,7 +47,7 @@ int main() {
 	    printf("Invalid choice\n");
 	    break;
     }
-    getch();
+    // getch();
     return 0;
 }
 

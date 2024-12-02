@@ -8,7 +8,7 @@ x-->y, y-->z, z-->x
 int main()
 {
 	int x,y,z,t;
-	clrscr();
+	// clrscr();
 	printf("Enter three integer values\t");
 	scanf("%d%d%d",&x,&y,&z);
 	printf("Before Rotation values are \n");
@@ -19,7 +19,7 @@ int main()
 		x = x - y - z;  
 	printf("After Rotation values are \n");
 	printf("X= %d Y= %d Z= %d",x,y,z);
-	getch();
+	// getch();
 }
 /*
 

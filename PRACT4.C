@@ -7,7 +7,7 @@ Title - Write a program to add digits of a number.
 int main()
 {
     int num, sum = 0, rem;
-    clrscr();
+    // clrscr();
     printf("Enter a number: ");
     scanf("%d", &num);
     while (num > 0)
@@ -17,7 +17,7 @@ int main()
 	num = num / 10;
     }
     printf("Sum of digits of the number is: %d", sum);
-    getch();
+    // getch();
     return 0;
 }
 

@@ -7,7 +7,7 @@ Title - Write a program to list prime numbers from 1 to 500 using for statement.
 int main()
 {
     int i, j, flag;
-    clrscr();
+    // clrscr();
     for (i = 1; i <= 500; i++)
     {
         flag = 0;
@@ -24,7 +24,7 @@ int main()
             printf("%5d", i);
         }
     }
-    getch();
+    // getch();
     return 0;
 }
 

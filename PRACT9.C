@@ -8,7 +8,7 @@ Name - Umesh Madhukar Wayakole
 int main()
 {
     int arr[10], i, num, flag = 0;
-    clrscr();
+    // clrscr();
     printf("Enter 10 numbers:\n");
     for (i = 0; i < 10; i++)
     {
@@ -32,7 +32,7 @@ int main()
     {
         printf("%d is not present in the array\n", num);
     }
-    getch();
+    // getch();
     return 0;
 }
 

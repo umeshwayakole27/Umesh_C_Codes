@@ -7,7 +7,7 @@ Title- Write a program to find factorial of a number.
 
 int main() {
     int num, i,factorial = 1;
-    clrscr();
+    // clrscr();
     printf("Enter a number (Natural number less than 8): ");
     scanf("%d", &num);
 
@@ -22,7 +22,7 @@ int main() {
         factorial *= i;
     }
         printf("Factorial of %d = %d\n", num, factorial);
-    getch();
+    // getch();
     return 0;
 }
 

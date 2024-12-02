@@ -9,7 +9,7 @@ Title- Write a program to find largest of three numbers
 int main()
 {
     int num1, num2, num3;
-    clrscr();
+    // clrscr();
     printf("Enter three numbers: ");
     scanf("%d %d %d", &num1, &num2, &num3);
 
@@ -35,7 +35,7 @@ int main()
 	    printf("The largest number is: %d\n", num2);
 	}
     }
-    getch();
+    // getch();
     return 0;
 }
 /*

@@ -7,7 +7,7 @@ Name - Umesh Madhukar Wayakole
 #include <stdio.h>
 int main() {
     int num, originalNum, remainder, result = 0;
-    clrscr();
+    // clrscr();
     printf("Enter a three-digit integer: ");
     scanf("%d", &num);
 
@@ -25,7 +25,7 @@ int main() {
 	printf("%d is an Armstrong number.", num);
     else
 	printf("%d is not an Armstrong number.", num);
-    getch();
+    // getch();
     return 0;
 }
 

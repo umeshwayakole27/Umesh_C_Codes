@@ -8,7 +8,7 @@ Name - Umesh Madhukar Wayakole
 
 int main() {
     int num, reversedNum = 0, remainder, originalNum;
-    clrscr();
+    // clrscr();
     printf("Enter an integer: ");
     scanf("%d", &num);
     originalNum = num;
@@ -22,7 +22,7 @@ int main() {
     } else {
 	printf("%d is not a palindrome.\n", originalNum);
     }
-    getch();
+    // getch();
     return 0;
 }
 
