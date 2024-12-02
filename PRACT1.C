@@ -13,10 +13,10 @@ int main()
 	scanf("%d%d%d",&x,&y,&z);
 	printf("Before Rotation values are \n");
 	printf("X= %d Y= %d Z= %d\n",x,y,z);
-		x = x + y + z;  //  x = 1+2+3 = 6
-		y = x - y - z;  //  y = 6-2-3 = 1
-		z = x - y - z;  //  z = 6-1-3 = 2
-		x = x - y - z;  //  x = 6-1-2 = 3
+		x = x + y + z;  
+		y = x - y - z;  
+		z = x - y - z;  
+		x = x - y - z;  
 	printf("After Rotation values are \n");
 	printf("X= %d Y= %d Z= %d",x,y,z);
 	getch();
