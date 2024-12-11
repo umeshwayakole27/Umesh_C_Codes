@@ -5,7 +5,7 @@ Name - Umesh Madhukar Wayakole
 */
 
 #include <stdio.h>
-
+#include <math.h>
 int main() {
     int choice, number;
     float guess, result;
@@ -15,38 +15,35 @@ int main() {
 
     printf("Choose an operation to perform:\n1. Square\n2. Square Root\n3. Cube\n4. Cube Root\nEnter your choice: ");
     scanf("%d", &choice);
-
-    switch (choice) {
-	case 1:
-	    result = number * number;
-	    printf("Square of %d is %f\n", number, result);
-	    break;
-	case 2:
-	    result = number;
-	    guess = number / 2.0;
-	    while (guess != result) {
-		result = guess;
-		guess = (number / guess + guess) / 2.0;
-	    }
-	    printf("Square Root of %d is %f\n", number, result);
-	    break;
-	case 3:
-	    result = number * number * number;
-	    printf("Cube of %d is %f\n", number, result);
-	    break;
-	case 4:
-	    result = number;
-	    guess = number / 3.0;
-	    while (guess != result) {
-		result = guess;
-		guess = (2.0 * guess + number / (guess * guess)) / 3.0;
-	    }
-	    printf("Cube Root of %d is %f\n", number, result);
-	    break;
-	default:
-	    printf("Invalid choice\n");
-	    break;
-    }
+	// while(choice != 5)
+	// {
+		switch (choice) {
+		case 1:
+			result = number * number;
+			printf("Square of %d is %f\n", number, result);
+			break;
+		case 2:
+			result = pow(number,1.0/2);
+			printf("Square root of %d is %f\n", number, result);
+			break;
+		case 3:
+			result = number * number * number;
+			printf("Cube of %d is %f\n", number, result);
+			break;
+		case 4:
+			result = pow(number,1.0/3);
+			printf("Cobe root of %d is %f\n", number, result);
+			break;
+		case 5:
+			break;
+		default:
+			if (choice > 5)
+			{
+				printf("Invalid choice\n");
+				break;
+			}
+		}
+	// }
     // getch();
     return 0;
 }

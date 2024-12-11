@@ -1,7 +1,9 @@
+/*
+Practical No. - 12
+Title - Write a Program to demostrate call by value parameter pasing technique.
+Name - Umesh Wayakole
+*/ 
 #include <stdio.h>
-// C program to illustrate
-// call by value
-
 #include <stdio.h>
 void swap(int x, int y)
 {
@@ -14,8 +16,15 @@ void swap(int x, int y)
 int main()
 {
     int a = 10, b = 20;
+    clrscr();
     swap(a, b);
     printf("a=%d b=%d\n", a, b);
+    getch();
     return 0;
 }
 
+/*
+OUTPUT:
+x=20 y=10
+a=10 b=20
+*/

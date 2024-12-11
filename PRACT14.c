@@ -19,6 +19,7 @@ int testprime(int n, int i)
 int main()
 {
     int num, flag;
+    clrscr();
     printf("Enter a number: ");
     scanf("%d", &num);
     flag = testprime(num, num/2);
@@ -26,5 +27,13 @@ int main()
         printf("The number is Prime");
     else
         printf("The number is not Prime");
+    getch();
     return 0;
 }
+
+/*
+OUTPUT:
+Enter a number: 5
+The number is Prime
+
+*/

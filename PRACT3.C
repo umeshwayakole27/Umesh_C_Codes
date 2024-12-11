@@ -14,7 +14,7 @@ int main() {
     if (num < 0 || num > 7) 
     {
         printf("Improper Input.\n");
-        getch();
+        // getch();
         return 0;
     } 
     for (i = 1; i <= num; i++) 

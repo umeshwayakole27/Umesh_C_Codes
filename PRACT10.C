@@ -16,7 +16,7 @@ int main()
     {
 	for (j = 0; j < 3; j++)
 	{
-	     a[i][j] = random(100);
+	     a[i][j] = randrom(100);
 	}
     }
     printf("First Matrix is: \n");

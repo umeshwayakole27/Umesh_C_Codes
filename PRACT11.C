@@ -25,13 +25,17 @@ int testprime(int n)
 int main()
 {
 	int num;
+	clrscr();
 	printf("Enter a number: ");
 	scanf("%d",&num);
 	testprime(num);
+	getch();
 	return 0;
 }
 
-/* Enter a number: 5
+/* 
+OUTPUT:
+Enter a number: 5
 The number is Prime
 */
 
