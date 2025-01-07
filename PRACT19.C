@@ -8,19 +8,19 @@ Name: Umesh Madhukar Wayakole
 int main()
 {
     FILE *fpin, *fpout;
-    char ch,fn[20];
+    char ch;
     // clrscr();
     fpin = fopen("INPUT.TXT", "r");
     fpout = fopen("OUTPUT.TXT", "w");
     if (fpin == NULL || fpout == NULL)
     {
-	printf("File does not exist...");
-	// getch();
-	return 0;
+        printf("File does not exist...");
+        // getch();
+        return 0;
     }
     while ((ch = getc(fpin)) != EOF)
     {
-	putc(ch, fpout);
+        putc(ch, fpout);
     }
     printf("File copied successfully");
     // getch();

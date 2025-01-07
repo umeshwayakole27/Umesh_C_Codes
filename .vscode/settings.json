@@ -26,5 +26,6 @@
     "PRG33B.C": "cpp",
     "PRG33A.C": "cpp",
     "PRG32C.C": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
